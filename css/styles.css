@@ -8,17 +8,31 @@ body {
     text-align: center;
     background-size: auto 100vh;
     height: 100vh;
-    background: linear-gradient(top, rgb(214, 214, 214), rgb(187, 187, 187), rgb(165, 165, 165));
-    background: linear-gradient(bottom, rgb(148, 148, 148), rgb(133, 133, 133), rgb(112, 112, 112));
+    background: -webkit-linear-gradient(top, rgb(235, 235, 235), rgb(112, 112, 112));
+    background: -moz-linear-gradient(top, rgb(235, 235, 235), rgb(112, 112, 112));
+    background: -ms-linear-gradient(top, rgb(235, 235, 235), rgb(112, 112, 112));
+    background: -o-linear-gradient(top, rgb(235, 235, 235), rgb(112, 112, 112));;
+    background: linear-gradient(to bottom, rgb(235, 235, 235), rgb(112, 112, 112));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header TDE {
     font-family: Helvetica;
     font-size: 60px;
+    align-content: center;
+    padding-top: 52px;
+}
+
+.h1 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .info ul {
-    background-color: rgb(255, 202, 181);
+    background: -webkit-radial-gradient(top, rgba(241, 17, 17, 0.822), rgba(224, 29, 29, 0.74), rgba(187, 37, 37, 0.699));
     list-style: none;
     text-align: center;
     font-family: Helvetica;
@@ -27,8 +41,6 @@ header TDE {
 
 .info li {
     padding: 3px;
-    border-width: 3px;
-    border-color: black;
 }
 
 .info .university {
@@ -36,9 +48,18 @@ header TDE {
     padding: 15px;
 }
 
+.info .student {
+    padding-bottom: 10px;
+}
+
+.school, .course, .subject, .professors, .student {
+    font-size: larger;
+}
+
 h2 {
     font-family: Helvetica;
     font-size: 30px;
+    padding: 20px;
 }
 
 .pucbutton {

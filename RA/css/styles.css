@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    text-align: center;
+    background-size: auto 100vh;
+    height: 100vh;
+    background: -webkit-linear-gradient(top, rgb(235, 235, 235), rgb(112, 112, 112));
+    background: -moz-linear-gradient(top, rgb(235, 235, 235), rgb(112, 112, 112));
+    background: -ms-linear-gradient(top, rgb(235, 235, 235), rgb(112, 112, 112));
+    background: -o-linear-gradient(top, rgb(235, 235, 235), rgb(112, 112, 112));;
+    background: linear-gradient(to bottom, rgb(235, 235, 235), rgb(112, 112, 112));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+}
+
+a {
+    background: #DB0000;
+    background-image: -webkit-linear-gradient(top, #DB0000, #580000);
+    background-image: -moz-linear-gradient(top, #DB0000, #580000);
+    background-image: -ms-linear-gradient(top, #DB0000, #580000);
+    background-image: -o-linear-gradient(top, #DB0000, #580000);
+    background-image: linear-gradient(to bottom, #DB0000, #580000);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 15px;
+    box-shadow: 0px 16px 29px 0px #000000;
+    -webkit-box-shadow: 0px 16px 29px 0px #000000;
+    -moz-box-shadow: 0px 16px 29px 0px #000000;
+    text-shadow: 0px 10px 12px #000000;
+    border: solid #9B0000 2px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+a:hover {
+    border: solid #9B0000 2px;
+    background: #B50000;
+    background-image: -webkit-linear-gradient(top, #B50000, #D30000);
+    background-image: -moz-linear-gradient(top, #B50000, #D30000);
+    background-image: -ms-linear-gradient(top, #B50000, #D30000);
+    background-image: -o-linear-gradient(top, #B50000, #D30000);
+    background-image: linear-gradient(to bottom, #B50000, #D30000);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: Helvetica;
+    font-size: 60px;
+    align-content: center;
+    padding-top: 52px;
+}
+
+li.text strong {
+    font-size: 40px;
+}
+
+li.text {
+    font-size: 24px;
+}
+
+img {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
